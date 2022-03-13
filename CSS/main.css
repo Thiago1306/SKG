@@ -3,7 +3,27 @@
     padding: 0;
     margin: 0;
 }
-
+html{
+    font-size: 62.5%;
+}
 header{
-    text-align: center;
+    background-color: #333;
+}
+.main-nav{
+    list-style: none;
+    text-align: right;
+    background-color: #333;
+}
+.main-nav-list{
+    display: inline-block;
+    padding: 2rem;
+}
+.main-nav-list a{
+    color: #fff;
+    font-size: 3rem;
+    text-decoration: none;
+    margin: 0;
+}
+.main-nav-list a:hover{
+    color: aqua;
 }
